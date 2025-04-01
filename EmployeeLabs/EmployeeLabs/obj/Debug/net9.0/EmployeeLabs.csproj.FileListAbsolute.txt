@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\bin\Debug\net9.0\EmployeeLabs.exe
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\bin\Debug\net9.0\EmployeeLabs.deps.json
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\bin\Debug\net9.0\EmployeeLabs.runtimeconfig.json
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\bin\Debug\net9.0\EmployeeLabs.dll
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\bin\Debug\net9.0\EmployeeLabs.pdb
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.AssemblyInfo.cs
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.sourcelink.json
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.dll
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\refint\EmployeeLabs.dll
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.pdb
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\EmployeeLabs.genruntimeconfig.cache
+C:\Users\PC\source\repos oop\EmployeeLabs\EmployeeLabs\obj\Debug\net9.0\ref\EmployeeLabs.dll
