@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos oop\\OOP\\Ticket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5E70C7B6-FA87-4F93-82D5-84165E6E28CA}|Ticket\\Ticket.csproj|c:\\users\\pc\\source\\repos oop\\oop\\ticket\\ticket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E70C7B6-FA87-4F93-82D5-84165E6E28CA}|Ticket\\Ticket.csproj|solutionrelative:ticket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E70C7B6-FA87-4F93-82D5-84165E6E28CA}|Ticket\\Ticket.csproj|c:\\users\\pc\\source\\repos oop\\oop\\ticket\\ticket\\theaterticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E70C7B6-FA87-4F93-82D5-84165E6E28CA}|Ticket\\Ticket.csproj|solutionrelative:ticket\\theaterticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TheaterTicket.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Ticket\\Ticket\\TheaterTicket.cs",
+              "RelativeDocumentMoniker": "Ticket\\TheaterTicket.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Ticket\\Ticket\\TheaterTicket.cs",
+              "RelativeToolTip": "Ticket\\TheaterTicket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:39:39.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Ticket\\Ticket\\Program.cs",
+              "RelativeDocumentMoniker": "Ticket\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Ticket\\Ticket\\Program.cs",
+              "RelativeToolTip": "Ticket\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T19:38:47.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
