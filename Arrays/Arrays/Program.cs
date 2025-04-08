@@ -8,53 +8,50 @@ namespace Arrays
         {
             try
             {
-
-                CustomArray arrayA = CustomArray.FromConsole("Введите элементы массива A (через пробел):");
-                CustomArray arrayB = CustomArray.FromConsole("Введите элементы массива B (через пробел):");
-
+                CustomArray arrayA = CustomArray.FromConsole("Enter elements for array A (space-separated):");
+                CustomArray arrayB = CustomArray.FromConsole("Enter elements for array B (space-separated):");
 
                 int leftMinIndexB = arrayB.GetLeftmostMinimumIndex();
                 CustomArray subArrayB = arrayB.GetSubarrayAfter(leftMinIndexB);
 
-                Console.WriteLine("Введите индекс элемента массива A для формирования подмассива (индекс должен быть больше правого минимума):");
+                Console.WriteLine("Enter an index in array A to extract elements after rightmost minimum:");
                 string indexInput = Console.ReadLine();
+
                 if (!int.TryParse(indexInput, out int givenIndex))
                 {
-                    throw new FormatException("Неверный формат числа для индекса.");
+                    throw new FormatException("Invalid index format.");
                 }
 
                 int rightMinIndexA = arrayA.GetRightmostMinimumIndex();
+
                 if (givenIndex <= rightMinIndexA)
                 {
-                    throw new ArgumentException("Заданный индекс должен быть больше индекса правого минимального элемента массива A.");
+                    throw new ArgumentException("Index must be greater than the rightmost minimum index in array A.");
                 }
 
                 CustomArray subArrayA = arrayA.GetSubarrayBetween(rightMinIndexA, givenIndex);
 
-
                 int[] combinedElements = new int[subArrayB.Length + subArrayA.Length];
                 Array.Copy(subArrayB.Elements, 0, combinedElements, 0, subArrayB.Length);
                 Array.Copy(subArrayA.Elements, 0, combinedElements, subArrayB.Length, subArrayA.Length);
-                CustomArray arrayC = new CustomArray(combinedElements);
+                CustomArray arrayC = CustomArray.CreateSafe(combinedElements);
 
+                Console.WriteLine("\nArray A:");
+                Console.WriteLine(arrayA.ToFormattedString());
 
-                Console.WriteLine("Massiv A:");
-                arrayA.PrintElements();
+                Console.WriteLine("Array B:");
+                Console.WriteLine(arrayB.ToFormattedString());
 
-                Console.WriteLine("Massiv B:");
-                arrayB.PrintElements();
-
-                Console.WriteLine("Ready massiv C:");
-                arrayC.PrintElements();
-
+                Console.WriteLine("Combined Array C:");
+                Console.WriteLine(arrayC.ToFormattedString());
 
                 int variant = 9;
                 double result = FunctionCalculator.ComputeFunctionValue(arrayA, arrayB, arrayC, variant);
-                Console.WriteLine(result);
+                Console.WriteLine($"\nFunction result: {result:F4}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Ошибка: " + ex.Message);
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
     }

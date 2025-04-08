@@ -5,11 +5,9 @@ namespace Arrays
 {
     public static class FunctionCalculator
     {
-
-
         public static int GetUniqueValue(CustomArray array, int startIndex, HashSet<int> existingValues)
         {
-            int index = startIndex % array.Length; 
+            int index = startIndex % array.Length;
             int attempts = 0;
 
             while (attempts < array.Length)
@@ -20,14 +18,12 @@ namespace Arrays
                     existingValues.Add(value);
                     return value;
                 }
-                index = (index + 1) % array.Length; 
+                index = (index + 1) % array.Length;
                 attempts++;
             }
-            throw new IndexOutOfRangeException("Exception.");
+
+            throw new IndexOutOfRangeException("Unable to find a unique value.");
         }
-
-
-
         public static double ComputeFunctionValue(CustomArray arrayA, CustomArray arrayB, CustomArray arrayC, int variant)
         {
             HashSet<int> uniqueValues = new HashSet<int>();
@@ -41,9 +37,8 @@ namespace Arrays
 
             if (denominator == 0)
             {
-                throw new DivideByZeroException("Exception.");
+                throw new DivideByZeroException("Division by zero.");
             }
-
             return numerator / denominator;
         }
     }
