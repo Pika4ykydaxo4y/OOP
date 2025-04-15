@@ -17,6 +17,7 @@ namespace Arrays
                 Console.WriteLine("Enter an index in array A to extract elements after rightmost minimum:");
                 string indexInput = Console.ReadLine();
 
+                //Строку в int
                 if (!int.TryParse(indexInput, out int givenIndex))
                 {
                     throw new FormatException("Invalid index format.");
@@ -31,6 +32,8 @@ namespace Arrays
 
                 CustomArray subArrayA = arrayA.GetSubarrayBetween(rightMinIndexA, givenIndex);
 
+                //Объединяем подмассивы А В С
+                //Копируем и 
                 int[] combinedElements = new int[subArrayB.Length + subArrayA.Length];
                 Array.Copy(subArrayB.Elements, 0, combinedElements, 0, subArrayB.Length);
                 Array.Copy(subArrayA.Elements, 0, combinedElements, subArrayB.Length, subArrayA.Length);

@@ -7,16 +7,16 @@ namespace Arrays
     {
         public static int GetUniqueValue(CustomArray array, int startIndex, HashSet<int> existingValues)
         {
-            int index = startIndex % array.Length;
-            int attempts = 0;
+            int index = startIndex % array.Length; //Если sI больше длинны массива
+            int attempts = 0; // Счетчик
 
             while (attempts < array.Length)
             {
-                int value = array.GetElementAt(index);
+                int value = array.GetElementAt(index); //Берем значение по индексу
                 if (!existingValues.Contains(value))
                 {
                     existingValues.Add(value);
-                    return value;
+                    return value; //Добавление нового элемента в массив 
                 }
                 index = (index + 1) % array.Length;
                 attempts++;
