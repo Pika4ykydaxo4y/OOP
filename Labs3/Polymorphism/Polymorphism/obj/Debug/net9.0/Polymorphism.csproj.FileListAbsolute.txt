@@ -1,0 +1,15 @@
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\bin\Debug\net9.0\Polymorphism.exe
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\bin\Debug\net9.0\Polymorphism.deps.json
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\bin\Debug\net9.0\Polymorphism.runtimeconfig.json
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\bin\Debug\net9.0\Polymorphism.dll
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\bin\Debug\net9.0\Polymorphism.pdb
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.AssemblyInfo.cs
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.sourcelink.json
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.dll
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\refint\Polymorphism.dll
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.pdb
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\Polymorphism.genruntimeconfig.cache
+C:\Users\PC\source\repos oop\OOP\Polymorphism\Polymorphism\obj\Debug\net9.0\ref\Polymorphism.dll
