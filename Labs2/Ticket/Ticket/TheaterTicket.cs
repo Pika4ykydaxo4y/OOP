@@ -1,23 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-public class TheaterTicket
+﻿public class TheaterTicket
 {
-    private string eventName;
-    private DateTime eventDateTime;
-    private decimal ticketPrice;
-    private bool isReserved = false;
-    private int numberOfTickets;
+    //Приватные поля
+    private readonly string _eventName;
+    private readonly DateTime _eventDateTime;
+    private readonly decimal _ticketPrice;
+    private bool _isReserved = false;
+    private int _numberOfTickets;
 
-    public string EventName => eventName;
-    public DateTime EventDateTime => eventDateTime;
-    public decimal TicketPrice => ticketPrice;
-    public bool IsReserved => isReserved;
-    public int NumberOfTickets => numberOfTickets;
+    //Свойства(только читать)
+    public string EventName => _eventName;
+    public DateTime EventDateTime => _eventDateTime;
+    public decimal TicketPrice => _ticketPrice;
+    public bool IsReserved => _isReserved;
+    public int NumberOfTickets => _numberOfTickets;
 
+    /// <summary>
+    /// Создает новый экземпляр театрального билета.
+    /// </summary>
     public TheaterTicket(string eventName, DateTime eventDateTime, decimal ticketPrice, int numberOfTickets)
     {
         if (string.IsNullOrWhiteSpace(eventName))
@@ -27,34 +26,39 @@ public class TheaterTicket
         if (numberOfTickets < 0)
             throw new ArgumentException("Количество билетов не может быть отрицательным.");
 
-        this.eventName = eventName;
-        this.eventDateTime = eventDateTime;
-        this.ticketPrice = ticketPrice;
-        this.numberOfTickets = numberOfTickets;
+        //Присваиваем значения
+        this._eventName = eventName;
+        this._eventDateTime = eventDateTime;
+        this._ticketPrice = ticketPrice;
+        this._numberOfTickets = numberOfTickets;
     }
-
+    /// <summary>
+    //Резервируем, если получается то true, если нет то возвращаем false.
+    /// <summary>
     public bool ReserveTicket()
     {
-        if (numberOfTickets > 0)
+        if (_numberOfTickets > 0)
         {
-            numberOfTickets--;
-            isReserved = true;
+            _numberOfTickets--;
+            _isReserved = true;
             return true;
         }
         return false;
     }
-
+    /// <summary>
+    //Возвращаем билет и отменяем бронь
+    /// <summary>
     public void CancelReservation()
     {
-        if (!isReserved)
+        if (!_isReserved)
             throw new InvalidOperationException("Бронирование не было сделано.");
 
-        numberOfTickets++;
-        isReserved = false;
+        _numberOfTickets++;
+        _isReserved = false;
     }
 
     public string GetTicketInfo()
     {
-        return $"Событие: \"{eventName}\", Дата: {eventDateTime:dd.MM.yyyy HH:mm}, Цена: {ticketPrice:F2}, Доступных билетов: {numberOfTickets}";
+        return $"Событие: \"{_eventName}\", Дата: {_eventDateTime:dd.MM.yyyy HH:mm}, Цена: {_ticketPrice:F2}, Доступных билетов: {_numberOfTickets}";
     }
 }

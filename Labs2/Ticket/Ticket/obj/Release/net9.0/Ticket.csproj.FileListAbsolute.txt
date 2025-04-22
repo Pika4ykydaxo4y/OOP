@@ -1,0 +1,5 @@
+C:\Users\PC\source\repos oop\OOP\Labs2\Ticket\Ticket\obj\Release\net9.0\Ticket.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos oop\OOP\Labs2\Ticket\Ticket\obj\Release\net9.0\Ticket.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos oop\OOP\Labs2\Ticket\Ticket\obj\Release\net9.0\Ticket.AssemblyInfo.cs
+C:\Users\PC\source\repos oop\OOP\Labs2\Ticket\Ticket\obj\Release\net9.0\Ticket.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos oop\OOP\Labs2\Ticket\Ticket\obj\Release\net9.0\Ticket.sourcelink.json

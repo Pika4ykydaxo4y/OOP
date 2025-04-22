@@ -7,7 +7,7 @@ class Program
         try
         {
             // Создаем новый театральный билет
-            TheaterTicket ticket = new TheaterTicket("La Traviata", new DateTime(2025, 12, 03, 19, 00, 00), 500.00m, 10);
+            TheaterTicket ticket = new TheaterTicket("Лебединое озеро", new DateTime(2025, 12, 03, 19, 30,  00, 00), 500.00m, 100);
 
             // Отображаем информацию о билете
             Console.WriteLine(ticket.GetTicketInfo());
