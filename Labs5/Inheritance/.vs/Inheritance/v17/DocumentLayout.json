@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|c:\\users\\pc\\source\\repos oop\\oop\\inheritance\\inheritance\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|c:\\users\\pc\\source\\repos oop\\oop\\inheritance\\inheritance\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\transfer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|c:\\users\\pc\\source\\repos oop\\oop\\inheritance\\inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|c:\\users\\pc\\source\\repos oop\\oop\\inheritance\\inheritance\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\deposit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|c:\\users\\pc\\source\\repos oop\\oop\\inheritance\\inheritance\\withdrawal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{565497EA-9D12-41D6-8EB3-29EC7ACC073A}|Inheritance\\Inheritance.csproj|solutionrelative:inheritance\\withdrawal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Withdrawal.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Withdrawal.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Withdrawal.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Withdrawal.cs",
+              "RelativeToolTip": "Inheritance\\Withdrawal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:59:05.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deposit.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Deposit.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Deposit.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Deposit.cs",
+              "RelativeToolTip": "Inheritance\\Deposit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:58:38.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Program.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Program.cs",
+              "RelativeToolTip": "Inheritance\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:49:23.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transfer.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Transfer.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Transfer.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Transfer.cs",
+              "RelativeToolTip": "Inheritance\\Transfer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:59:22.46Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Transaction.cs",
+              "RelativeDocumentMoniker": "Inheritance\\Transaction.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Inheritance\\Inheritance\\Transaction.cs",
+              "RelativeToolTip": "Inheritance\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T17:57:00.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
