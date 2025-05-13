@@ -1,5 +1,6 @@
 ﻿namespace Polymorphism
 {
+    //Наследуем класс Tool
     class Drill : Tool
     {
         public override string Use()
