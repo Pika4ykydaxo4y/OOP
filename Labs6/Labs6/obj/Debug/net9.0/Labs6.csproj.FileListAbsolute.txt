@@ -1,0 +1,16 @@
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\Labs6.exe
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\Labs6.deps.json
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\Labs6.runtimeconfig.json
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\Labs6.dll
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\Labs6.pdb
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.AssemblyInfo.cs
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.sourcelink.json
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.dll
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\refint\Labs6.dll
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.pdb
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\Labs6.genruntimeconfig.cache
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\obj\Debug\net9.0\ref\Labs6.dll
+C:\Users\PC\source\repos oop\OOP\Labs6\Labs6\bin\Debug\net9.0\figures.txt

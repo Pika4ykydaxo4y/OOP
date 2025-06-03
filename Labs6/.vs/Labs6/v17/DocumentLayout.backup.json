@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\figures.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\figures.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\igeometricfigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\igeometricfigure.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\square.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs6\\labs6\\figureparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE81F535-14C1-45A9-AB93-0D487E05F9B5}|Labs6\\Labs6.csproj|solutionrelative:labs6\\figureparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "figures.txt",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\figures.txt",
+              "RelativeDocumentMoniker": "Labs6\\figures.txt",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\figures.txt",
+              "RelativeToolTip": "Labs6\\figures.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-03T18:12:21.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Program.cs",
+              "RelativeDocumentMoniker": "Labs6\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Program.cs",
+              "RelativeToolTip": "Labs6\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:01:15.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGeometricFigure.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\IGeometricFigure.cs",
+              "RelativeDocumentMoniker": "Labs6\\IGeometricFigure.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\IGeometricFigure.cs",
+              "RelativeToolTip": "Labs6\\IGeometricFigure.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:04:48.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Square.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Square.cs",
+              "RelativeDocumentMoniker": "Labs6\\Square.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Square.cs",
+              "RelativeToolTip": "Labs6\\Square.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:02:59.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Circle.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Circle.cs",
+              "RelativeDocumentMoniker": "Labs6\\Circle.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\Circle.cs",
+              "RelativeToolTip": "Labs6\\Circle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:02:45.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FigureParser.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\FigureParser.cs",
+              "RelativeDocumentMoniker": "Labs6\\FigureParser.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs6\\Labs6\\FigureParser.cs",
+              "RelativeToolTip": "Labs6\\FigureParser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T18:02:23.856Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
