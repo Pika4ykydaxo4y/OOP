@@ -43,7 +43,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T09:22:15.827Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -63,7 +64,8 @@
               "RelativeToolTip": "Polymorphism\\Polymorphism\\Wrench.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:22:16.644Z"
+              "WhenOpened": "2025-05-13T09:22:16.644Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +77,8 @@
               "RelativeToolTip": "Polymorphism\\Polymorphism\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:22:14.558Z"
+              "WhenOpened": "2025-05-13T09:22:14.558Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -87,7 +90,8 @@
               "RelativeToolTip": "Polymorphism\\Polymorphism\\Hammer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:22:06.461Z"
+              "WhenOpened": "2025-05-13T09:22:06.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -99,7 +103,8 @@
               "RelativeToolTip": "Polymorphism\\Polymorphism\\Drill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T09:22:04.422Z"
+              "WhenOpened": "2025-05-13T09:22:04.422Z",
+              "EditorCaption": ""
             }
           ]
         }

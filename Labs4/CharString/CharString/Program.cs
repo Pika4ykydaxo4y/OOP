@@ -1,35 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Text.RegularExpressions;
 
 class Program
 {
     static void Main()
     {
-        string input = // дорабатываю;
+        Console.WriteLine("Введите текст (для завершения ввода введите пустую строку):");
+
+        // Считываем строки ввода, пока пользователь не введет пустую строку
+        List<string> inputLines = new List<string>();
+        string line;
+        while (!string.IsNullOrWhiteSpace(line = Console.ReadLine()))
+        {
+            inputLines.Add(line);
+        }
+
+        //Объединяем строки в один текст.
+        string input = string.Join(" ", inputLines);
 
         try
         {
-            string[] sentences = input.Split('.', StringSplitOptions.RemoveEmptyEntries);
+            //Делим текст на предложения и пробелу.
+            string[] sentences = Regex.Split(input, @"(?<=[.])\s+");
             List<string> validAddresses = new List<string>();
             DateTime now = DateTime.Now;
             DateTime today = now.Date;
             DateTime yesterday = today.AddDays(-1);
             TimeSpan thresholdTime = new TimeSpan(13, 0, 0);
 
+            //Цикл по каждому предложению из текста
             foreach (string sentence in sentences)
             {
+                //Удаляем пробелы и пустые строки.
                 string trimmed = sentence.Trim();
                 if (string.IsNullOrEmpty(trimmed))
                     continue;
 
-                // Проверка наличия URL, даты и времени
                 string urlPattern = @"(https?|ftp):\/\/[^\s]+";
                 string datePattern = @"(\d{2}[./]\d{2}[./]\d{2,4})";
                 string timePattern = @"(\d{2})-(\d{2})";
 
+                //Ищем совпадения.
                 Match urlMatch = Regex.Match(trimmed, urlPattern);
                 Match dateMatch = Regex.Match(trimmed, datePattern);
                 Match timeMatch = Regex.Match(trimmed, timePattern);
@@ -41,15 +54,16 @@ class Program
                 string dateStr = dateMatch.Value;
                 string timeStr = timeMatch.Value;
 
-                // Парсинг времени
+                //Преобразовываем строку в число
                 int hour = int.Parse(timeMatch.Groups[1].Value);
                 int minute = int.Parse(timeMatch.Groups[2].Value);
+                //Проверяем диапазон
                 if (hour < 0 || hour > 23 || minute < 0 || minute > 59)
                     throw new Exception($"Неверное время в предложении: \"{trimmed}\"");
 
+                //Создаём переменную, формат которой час, минута, секунда.
                 TimeSpan connectionTime = new TimeSpan(hour, minute, 0);
 
-                // Парсинг даты
                 DateTime connectionDate;
                 string[] formats = { "dd.MM.yyyy", "dd/MM/yy", "dd.MM.yy" };
                 if (!DateTime.TryParseExact(dateStr, formats, CultureInfo.InvariantCulture, DateTimeStyles.None, out connectionDate))
@@ -61,7 +75,6 @@ class Program
                 }
             }
 
-            // Вывод результата
             Console.WriteLine("Адреса, подключение к которым было сегодня или вчера после 13:00:");
             foreach (var addr in validAddresses)
             {
