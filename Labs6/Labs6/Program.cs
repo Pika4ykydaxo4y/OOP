@@ -11,6 +11,7 @@
         foreach (var figure in figures)
         {
             Console.ResetColor();
+            //Отступ
             Console.Write($"{index,5} | ");
             Console.WriteLine(figure.GetInfo());
             index++;
