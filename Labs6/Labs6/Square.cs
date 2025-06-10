@@ -46,8 +46,10 @@
 
     private static double GetDistance((double X, double Y) a, (double X, double Y) b)
     {
+        //Вычисляем растояние между точками
         var dx = a.X - b.X;
         var dy = a.Y - b.Y;
-        return Math.Sqrt(dx * dx + dy * dy);
+        var dist = Math.Sqrt(dx * dx + dy * dy);
+        return dist;
     }
 }
