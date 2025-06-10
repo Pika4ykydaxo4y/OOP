@@ -12,19 +12,21 @@
         _vertices = vertices;
     }
 
-    public double Area
+    public double area
     {
         get
         {
             var side = GetDistance(_vertices[0], _vertices[1]);
-            return side * side;
+            var s = side * side;
+            return s;
         }
     }
 
     public double GetPerimeter()
     {
         var side = GetDistance(_vertices[0], _vertices[1]);
-        return 4 * side;
+        var s_cube = 4 * side;
+        return s_cube;
     }
 
     public string GetInfo()

@@ -1,6 +1,6 @@
 ﻿public interface IGeometricFigure
 {
-    double Area { get; }
+    double area { get; }
     double GetPerimeter();
     string GetInfo();
     double this[int index] { get; }
