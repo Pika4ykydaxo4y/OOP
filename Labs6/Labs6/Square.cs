@@ -40,7 +40,8 @@
                 throw new IndexOutOfRangeException();
 
             int i = index / 2;
-            return index % 2 == 0 ? _vertices[i].X : _vertices[i].Y;
+            var value = index % 2 == 0 ? _vertices[i].X : _vertices[i].Y;
+            return value;
         }
     }
 
