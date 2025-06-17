@@ -5,7 +5,7 @@
         var parser = new FigureParser();
         var figures = parser.ParseFigures("figures.txt");
 
-        Console.WriteLine("Номер | Вид фигуры | Цвет   | Площадь");
+        Console.WriteLine("Number | Type figure | Color   | Square");
 
         int index = 1;
         foreach (var figure in figures)

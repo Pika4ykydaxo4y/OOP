@@ -16,7 +16,7 @@ public class Circle : IGeometricFigure
     }
 
     //Формула площади
-    public double Area => Math.PI * _radius * _radius;
+    public double area => Math.PI * _radius * _radius;
 
     //Длинна окружности
     public double GetPerimeter() => 2 * Math.PI * _radius;
@@ -27,7 +27,7 @@ public class Circle : IGeometricFigure
         Console.ForegroundColor = Enum.TryParse<ConsoleColor>(_color, true, out var color)
             ? color : ConsoleColor.White;
 
-        return $"круг | Цвет: {_color} | Площадь: {Area:F2}";
+        return $"Circle | Color: {_color} | Square: {area:F2}";
     }
 
     public double this[int index]

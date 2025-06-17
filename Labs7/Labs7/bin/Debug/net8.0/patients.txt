@@ -1,0 +1,5 @@
+Ivanov;1980;2023-05-01;Flu;12
+Petrov;1988;2023-06-10;Flu;5
+Sidorov;1995;2023-04-12;Angina;3
+Kyznecov;2000;2023-03-15;Angina;7
+Morozov;1975;2023-02-20;Pneumonia;10

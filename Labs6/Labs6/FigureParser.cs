@@ -1,5 +1,7 @@
 ﻿public class FigureParser
 {
+    private string color;
+
     public List<IGeometricFigure> ParseFigures(string filePath)
     {
         var figures = new List<IGeometricFigure>();
@@ -8,7 +10,7 @@
         foreach (var line in lines)
         {
             var parts = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-            if (parts.Length == 9) // квадрат: 4 вершины по 2 координаты + тип
+            if (parts.Length == 9) // Значение 9 потому что 4 координаты(x,y) + цвет
             {
                 var vertices = new (double X, double Y)[4];
                 for (int i = 0; i < 4; i++)

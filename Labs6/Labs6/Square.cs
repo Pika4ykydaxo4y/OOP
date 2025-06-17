@@ -1,10 +1,13 @@
-﻿public class Square : IGeometricFigure
+﻿using System.Drawing;
+
+public class Square : IGeometricFigure
 {
     private readonly (double X, double Y)[] _vertices;
-
+    //Конструктор
     public Square((double X, double Y)[] vertices)
+
     {
-        if (vertices.Length != 4)
+        if (vertices.Length != 4)//Если не 4 вершины то исключение.
         {
             throw new ArgumentException("Square must have exactly 4 vertices.");
         }
@@ -16,22 +19,22 @@
     {
         get
         {
-            var side = GetDistance(_vertices[0], _vertices[1]);
-            var s = side * side;
+            var side = GetDistance(_vertices[0], _vertices[1]);//Вычисление длинны одной стороны
+            var s = side * side;//Площадь
             return s;
         }
     }
 
     public double GetPerimeter()
     {
-        var side = GetDistance(_vertices[0], _vertices[1]);
-        var s_cube = 4 * side;
+        var side = GetDistance(_vertices[0], _vertices[1]);//Вычисление длинны одной стороны
+        var s_cube = 4 * side;// Площадь куба
         return s_cube;
     }
 
     public string GetInfo()
     {
-        return $"квадрат | Цвет: N/A | Площадь: {Area:F2}";
+        return $"Cube | Color: N/A | Square: {area:F2}";
     }
 
     public double this[int index]
