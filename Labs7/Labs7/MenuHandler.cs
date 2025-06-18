@@ -18,46 +18,88 @@ namespace HospitalRecordsModule.Menu
 
         public void ShowMenu()
         {
-            while (true)
+            bool isRunning = true;
+
+            while (isRunning)
             {
                 Console.Clear();
-                Console.WriteLine("Выберите диагноз:");
-                var values = Enum.GetValues<DiagnosisType>();
-                for (int i = 0; i < values.Length; i++)
+                Console.WriteLine("Choose diagnose:");
+                var diagnosisValues = Enum.GetValues<DiagnosisType>();
+
+                for (int i = 0; i < diagnosisValues.Length; i++)
                 {
-                    Console.WriteLine($"{i + 1}. {values[i]}");
+                    Console.WriteLine($"{i + 1}. {diagnosisValues[i]}");
                 }
 
-                Console.WriteLine("0. Выход");
+                Console.WriteLine("0. Exit");
 
                 if (int.TryParse(Console.ReadLine(), out int choice))
                 {
-                    if (choice == 0) break;
-
-                    if (choice > 0 && choice <= values.Length)
+                    if (choice == 0)
                     {
-                        var selectedDiagnosis = values[choice - 1];
-                        var filtered = _patientService.FilterByDiagnosis(_patients, selectedDiagnosis);
+                        isRunning = false;
+                        continue;
+                    }
 
-                        Console.Clear();
-                        Console.WriteLine($"Пациенты с диагнозом: {selectedDiagnosis}");
-                        foreach (var p in filtered)
-                        {
-                            Console.WriteLine($"{p.LastName}, {p.Age} лет, {p.DaysInHospital} дней");
-                        }
+                    if (choice > 0 && choice <= diagnosisValues.Length)
+                    {
+                        var selectedDiagnosis = diagnosisValues[choice - 1];
+                        var filteredPatients = _patientService.FilterByDiagnosis(_patients, selectedDiagnosis);
 
-                        Console.WriteLine("\nНажмите любую клавишу...");
-                        Console.ReadKey();
+                        DisplayPatientsByFormat(filteredPatients, selectedDiagnosis);
                     }
                 }
             }
 
-            var grouped = Enum.GetValues<DiagnosisType>()
-                .ToDictionary(
-                    d => d,
-                    d => _patientService.FilterByDiagnosis(_patients, d));
+            SaveReport();
+        }
 
-            _fileService.WriteReport(grouped);
+        private void DisplayPatientsByFormat(IEnumerable<Patient> patients, DiagnosisType diagnosis)
+        {
+            Console.Clear();
+            Console.WriteLine($"Patients diagnosed with: {diagnosis}\n");
+
+            Console.WriteLine("Press the key:");
+            Console.WriteLine("Home - Last name, age");
+            Console.WriteLine("End — Last name, date of admission, year of birth");
+
+            var keyPressed = Console.ReadKey(true).Key;
+
+            switch (keyPressed)
+            {
+                case ConsoleKey.Home:
+                    foreach (var patient in patients)
+                    {
+                        Console.WriteLine($"{patient.LastName}, age: {patient.Age}");
+                    }
+                    break;
+
+                case ConsoleKey.End:
+                    foreach (var patient in patients)
+                    {
+                        Console.WriteLine($"{patient.LastName}, date of receipt: {patient.AdmissionDate:yyyy-MM-dd}, year of birth: {patient.BirthDate.Year}");
+                    }
+                    break;
+
+                default:
+                    Console.WriteLine("Invalid key. Press Home or End.");
+                    break;
+            }
+
+            Console.WriteLine("\nPress any key to return to the menu...");
+            Console.ReadKey(true);
+        }
+
+        private void SaveReport()
+        {
+            var groupedPatients = Enum
+                .GetValues<DiagnosisType>()
+                .ToDictionary(
+                    diagnosis => diagnosis,
+                    diagnosis => _patientService.FilterByDiagnosis(_patients, diagnosis)
+                );
+
+            _fileService.WriteReport(groupedPatients);
         }
     }
 }

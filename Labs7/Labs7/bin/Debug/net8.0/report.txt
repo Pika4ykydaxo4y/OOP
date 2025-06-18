@@ -1,0 +1,11 @@
+Diagnosis: Flu
+Ivanov, 45 years old, 12 days
+Petrov, 37 years old, 5 days
+
+Diagnosis: Angina
+Sidorov, 30 years old, 3 days
+Kyznecov, 25 years old, 7 days
+
+Diagnosis: Pneumonia
+Morozov, 50 years old, 10 days
+

@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\diagnosistype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,8 +38,94 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
+              "RelativeDocumentMoniker": "Labs7\\Patient.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
+              "RelativeToolTip": "Labs7\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:21:49.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\PatientService.cs",
+              "RelativeDocumentMoniker": "Labs7\\PatientService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\PatientService.cs",
+              "RelativeToolTip": "Labs7\\PatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:22:08.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuHandler.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs",
+              "RelativeDocumentMoniker": "Labs7\\MenuHandler.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs*",
+              "RelativeToolTip": "Labs7\\MenuHandler.cs*",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:23:24.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Program.cs",
+              "RelativeDocumentMoniker": "Labs7\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Program.cs",
+              "RelativeToolTip": "Labs7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:18:11.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
+              "RelativeDocumentMoniker": "Labs7\\FileService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
+              "RelativeToolTip": "Labs7\\FileService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:22:52.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DiagnosisType.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\DiagnosisType.cs",
+              "RelativeDocumentMoniker": "Labs7\\DiagnosisType.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\DiagnosisType.cs",
+              "RelativeToolTip": "Labs7\\DiagnosisType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T08:21:18.862Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -52,81 +138,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-06-17T08:31:28.215Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuHandler.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs",
-              "RelativeDocumentMoniker": "Labs7\\MenuHandler.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs",
-              "RelativeToolTip": "Labs7\\MenuHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:23:24.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Program.cs",
-              "RelativeDocumentMoniker": "Labs7\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Program.cs",
-              "RelativeToolTip": "Labs7\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:18:11.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "FileService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
-              "RelativeDocumentMoniker": "Labs7\\FileService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
-              "RelativeToolTip": "Labs7\\FileService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:22:52.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\PatientService.cs",
-              "RelativeDocumentMoniker": "Labs7\\PatientService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\PatientService.cs",
-              "RelativeToolTip": "Labs7\\PatientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:22:08.996Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
-              "RelativeDocumentMoniker": "Labs7\\Patient.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
-              "RelativeToolTip": "Labs7\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:21:49.875Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DiagnosisType.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\DiagnosisType.cs",
-              "RelativeDocumentMoniker": "Labs7\\DiagnosisType.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\DiagnosisType.cs",
-              "RelativeToolTip": "Labs7\\DiagnosisType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:21:18.862Z"
             }
           ]
         }

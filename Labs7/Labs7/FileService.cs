@@ -2,17 +2,26 @@
 
 namespace HospitalRecordsModule.Services
 {
+    /// <summary>
+    /// Сервис для загрузки и сохранения данных пациентов.
+    /// </summary>
     public class FileService
     {
-        private const string OutputFileName = "TherapyReport.txt";
+        private const char Separator = ';';
 
+        /// <summary>
+        /// Загружает пациентов из текстового файла.
+        /// </summary>
+        /// <param name="filePath">Путь к файлу</param>
+        /// <returns>Список пациентов</returns>
         public List<Patient> LoadPatients(string filePath)
         {
+            var lines = File.ReadAllLines(filePath);
             var patients = new List<Patient>();
-            foreach (var line in File.ReadAllLines(filePath))
+
+            foreach (var line in lines)
             {
-                var parts = line.Split(';');
-                if (parts.Length != 5) continue;
+                var parts = line.Split(Separator);
 
                 var patient = new Patient
                 {
@@ -22,35 +31,33 @@ namespace HospitalRecordsModule.Services
                     Diagnosis = Enum.Parse<DiagnosisType>(parts[3]),
                     DaysInHospital = int.Parse(parts[4])
                 };
+
                 patients.Add(patient);
             }
+
             return patients;
         }
 
-        public void WriteReport(Dictionary<DiagnosisType, List<Patient>> groupedData)
+        /// <summary>
+        /// Сохраняет отчёт по группам диагнозов в текстовый файл.
+        /// </summary>
+        /// <param name="groupedPatients">Группировка пациентов по диагнозу</param>
+        public void WriteReport(Dictionary<DiagnosisType, IEnumerable<Patient>> groupedPatients)
         {
-            using var writer = new StreamWriter(OutputFileName, false);
+            const string OutputFile = "report.txt";
 
-            writer.WriteLine("Терапевтическое отделение:");
-            foreach (var group in groupedData)
+            using var writer = new StreamWriter(OutputFile);
+
+            foreach (var (diagnosis, patients) in groupedPatients)
             {
-                writer.WriteLine();
-                writer.WriteLine(group.Key + ":");
+                writer.WriteLine($"Diagnosis: {diagnosis}");
 
-                var patients = group.Value;
-                if (patients.Any())
+                foreach (var patient in patients)
                 {
-                    writer.WriteLine("№\tФамилия\tПродолжительность пребывания\tВозраст");
-                    for (int i = 0; i < patients.Count; i++)
-                    {
-                        var p = patients[i];
-                        writer.WriteLine($"{i + 1}\t{p.LastName}\t{p.DaysInHospital}\t{p.Age}");
-                    }
+                    writer.WriteLine($"{patient.LastName}, {patient.Age} years old, {patient.DaysInHospital} days");
                 }
-                else
-                {
-                    writer.WriteLine("больные не обнаружены.");
-                }
+
+                writer.WriteLine();
             }
         }
     }
