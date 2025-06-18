@@ -70,8 +70,7 @@
               "RelativeToolTip": "Labs7\\MenuHandler.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAgwFgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:23:24.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T08:23:24.844Z"
             },
             {
               "$type": "Document",
@@ -91,9 +90,9 @@
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
               "RelativeDocumentMoniker": "Labs7\\FileService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs*",
-              "RelativeToolTip": "Labs7\\FileService.cs*",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
+              "RelativeToolTip": "Labs7\\FileService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAowEwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T08:22:52.686Z",
               "EditorCaption": ""
@@ -120,8 +119,7 @@
               "RelativeToolTip": "Labs7\\DiagnosisType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:21:18.862Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T08:21:18.862Z"
             },
             {
               "$type": "Document",
@@ -133,8 +131,7 @@
               "RelativeToolTip": "Labs7\\patients.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-17T08:31:28.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T08:31:28.215Z"
             }
           ]
         }

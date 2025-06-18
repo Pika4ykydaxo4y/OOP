@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\diagnosistype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\diagnosistype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\menuhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|solutionrelative:labs7\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ACB561-83E4-48AB-B490-1774C9F7F8B5}|Labs7\\Labs7.csproj|c:\\users\\pc\\source\\repos oop\\oop\\labs7\\labs7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -56,19 +56,20 @@
               "RelativeDocumentMoniker": "Labs7\\PatientService.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\PatientService.cs",
               "RelativeToolTip": "Labs7\\PatientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:22:08.996Z"
+              "WhenOpened": "2025-06-17T08:22:08.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MenuHandler.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs",
               "RelativeDocumentMoniker": "Labs7\\MenuHandler.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\MenuHandler.cs",
               "RelativeToolTip": "Labs7\\MenuHandler.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAgwFgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T08:23:24.844Z",
               "EditorCaption": ""
@@ -87,28 +88,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "FileService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
               "RelativeDocumentMoniker": "Labs7\\FileService.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\FileService.cs",
               "RelativeToolTip": "Labs7\\FileService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwC4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-17T08:22:52.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Patient.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
               "RelativeDocumentMoniker": "Labs7\\Patient.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\Patient.cs",
               "RelativeToolTip": "Labs7\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-17T08:21:49.875Z"
+              "WhenOpened": "2025-06-17T08:21:49.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -125,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "patients.txt",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos oop\\OOP\\Labs7\\Labs7\\patients.txt",
               "RelativeDocumentMoniker": "Labs7\\patients.txt",
@@ -133,8 +135,7 @@
               "RelativeToolTip": "Labs7\\patients.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-06-17T08:31:28.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T08:31:28.215Z"
             }
           ]
         }
