@@ -46,19 +46,31 @@ namespace HospitalRecordsModule.Services
         {
             const string OutputFile = "report.txt";
 
-            using var writer = new StreamWriter(OutputFile);
+            // Создание нового файла (если существует — перезаписывается)
+            using var writer = new StreamWriter(OutputFile, append: false);
 
             foreach (var (diagnosis, patients) in groupedPatients)
             {
-                writer.WriteLine($"Diagnosis: {diagnosis}");
+                // Заголовок отделения (на английском)
+                string departmentTitle = diagnosis switch
+                {
+                    DiagnosisType.Flu => "Therapeutic department:",
+                    DiagnosisType.Angina => "Cardiology department:",
+                    DiagnosisType.Pneumonia => "Pulmonology department:",
+                    _ => "Unknown department:"
+                };
+
+
+                writer.WriteLine(departmentTitle);
 
                 foreach (var patient in patients)
                 {
                     writer.WriteLine($"{patient.LastName}, {patient.Age} years old, {patient.DaysInHospital} days");
                 }
 
-                writer.WriteLine();
+                writer.WriteLine(); // Пустая строка между отделениями
             }
         }
+
     }
 }
